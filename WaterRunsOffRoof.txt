@@ -1,0 +1,52 @@
+What this does is multiplys the two dimensions by the number of inches and divide the result by 231.
+
+
+INPUT                       PROCESS                          OUTPUT
+------------------------------------------------------------------------------------------------------
+Len                    1)Prompt User for                    Total.
+                           len as rainfall
+			   in inches.
+		         2)Save len In 
+			   variable len.
+			 3)Prompt User for 
+                           Wid as rainfall
+			   in inches.
+			4)Save Wid In 
+			  variable Wid.
+			5)Multiply Len & Wid
+			  put result in Multi.
+			6)Divide Multi by 231.
+			  put result in Total.
+			9)Print Total.
+Wid
+Height
+
+-----------------------------------------------------------------------------------------------------
+START
+Define Total as number
+Define Multi as number
+Define Len as number
+Define Wid as number
+Print "Enter first number"
+
+INPUT Len
+
+Print "Enter second number"
+
+INPUT Wid
+
+Convert_Len_to_inche = 50' * 12 
+Print Len
+Convert_Wid_to_inche = 20' * 12
+Print Wid
+Multiply = Len * Wid * 1"
+Print Multiply
+
+raifall in inches
+
+Divide = Multiply/231
+print Divide
+
+Print Total
+
+END
