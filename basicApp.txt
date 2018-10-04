@@ -7,9 +7,8 @@ INPUT                        PROCESS                     OUTPUT
 -----------------------------------------------------------------------------------------------
 Num1                        1)Pormpt user Num1           Total2.
                             2)Save Num1 In variable
-                               num1.
-Num3(doubleIt)              
-Num4(sub7FromIt)            
+                               num1.              
+
 			    3)Sum num1 + 5
 	                      put result in Total
 	                    4)Double Total
@@ -19,12 +18,12 @@ Num4(sub7FromIt)
 			    6)Print Total2.
 ----------------------------------------------------------------------------------------------
 START
-Define Total2 as Number.
-Define Total1 as Number.
-Define Sum as Number.
-Define Num1 as Number.
+Define Total2
+Define Total1
+Define Sum
+Define Num1
 
-Print "Enter first number"
+PROMPT "Enter first number"
 
 INPUT Num1.
 

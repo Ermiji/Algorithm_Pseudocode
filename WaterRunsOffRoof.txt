@@ -1,52 +1,52 @@
 What this does is multiplys the two dimensions by the number of inches and divide the result by 231.
 
 
-INPUT                       PROCESS                          OUTPUT
+INPUT                       PROCESS                                                      OUTPUT
 ------------------------------------------------------------------------------------------------------
-Len                    1)Prompt User for                    Total.
-                           len as rainfall
-			   in inches.
-		         2)Save len In 
-			   variable len.
-			 3)Prompt User for 
-                           Wid as rainfall
-			   in inches.
-			4)Save Wid In 
-			  variable Wid.
-			5)Multiply Len & Wid
-			  put result in Multi.
-			6)Divide Multi by 231.
-			  put result in Total.
-			9)Print Total.
-Wid
-Height
+roofLen1ft               1)Prompt User to enter                                          Total.
+roofWidthft                roof lenth
+roofLenInche	          Save in roofLengthfeet
+roofWidInche		 2)prompt user In roof width 
+rainInche	          Save value in roofWidfeet
+cubicIncheRain		  3)Prompt User for 
+gallons                  4) convert roofLengthfeet to inche
+			   Store roofLengthfeet * 12 to roofLengInche
+			4)convert roodWidfeet * 12 to roofWidInches 
+			5)PROMPT user to rain fall in inches
+			  store it in rainInche
+			6) multiply rooflengInche * roofwidinche * rainInche
+			  Store it in cubicIncheRain
+			Calculate gallons
+			 7) divide cubicInchesRain / 231
+			 Store it in variable gallons
+			9)Print gallons
+Wid2
 
 -----------------------------------------------------------------------------------------------------
 START
-Define Total as number
-Define Multi as number
-Define Len as number
-Define Wid as number
-Print "Enter first number"
+Define roofLenfeet
+Define roofWidfeet
+Define roofLenInches
+Define roofWidInches
+Define rainInches
+Define cubicInchesRain
+Define gallons
+PROMPT "Enter roof width in feet"
 
-INPUT Len
+INPUT roofWidfeet
 
-Print "Enter second number"
+PROMPT "Enter roof length in feet"
 
-INPUT Wid
+INPUT roofLenfeet
 
-Convert_Len_to_inche = 50' * 12 
-Print Len
-Convert_Wid_to_inche = 20' * 12
-Print Wid
-Multiply = Len * Wid * 1"
-Print Multiply
+PROMPT "Enter rainfall in inches"
 
-raifall in inches
-
-Divide = Multiply/231
-print Divide
-
-Print Total
-
+INPUT rainInches
+Convert roofWidfeet into inches
+roofWidInche = roofWidfeet * 12
+Convert roofLenfeet into inches
+roofLenInches = roofLenfeet * 12
+CubicIncheRain = roofLenInches * roofWidInche * rainInches
+gallon = CubicIncheRain / 231
+Print gallon 
 END

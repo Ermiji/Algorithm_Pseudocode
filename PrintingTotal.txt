@@ -22,18 +22,18 @@ Num2
 Num3
 ---------------------------------------------------------------------------------------
 START
-Define Total as Number
-Define Number as Num1
-Define Number as Num2
-Define Number as Num3
-Print "enter first number"
+Define Total
+Define Num1
+Define Num2
+Define Num3
+PROMPT "enter first number"
 
 INPUT Num1
 
-Print "enter second number"
+PROMPT "enter second number"
 
 INPUT Num2
-Print "enter third number"
+PROMPT "enter third number"
 
 INPUT Num3
 Total = Num1 + Num2 + Num3

@@ -62,55 +62,55 @@ Num9
 Num10
 ---------------------------------------------------------------------------------------------------
 START
-Define Average as Number
-Define Total as Number
-Difine Num1 as Number
-Difine Num2 as Number
-Difine Num3 as Number
-Difine Num4 as Number
-Difine Num5 as Number
-Difine Num6 as Number
-Difine Num7 as Number
-Difine Num8 as Number
-Difine Num9 as Number
-Difine Num10 as Number
-Print "enter first number"
+Define Average
+Define Total
+Difine Num1
+Difine Num2
+Difine Num3
+Difine Num4
+Difine Num5
+Difine Num6
+Difine Num7
+Difine Num8
+Difine Num9
+Difine Num10
+PROMPT "enter first number"
 
 INPUT Num1
 
-Print "enter second number"
+PROMPT "enter second number"
 
 INPUT Num2
 
-Print "enter third number"
+PROMPT "enter third number"
 
 INPUT Num3
 
-Print "enter forth number"
+PROMPT "enter forth number"
 
 INPUT Num4
 
-Print "enter fifth number"
+PROMPT "enter fifth number"
 
 INPUT Num5
 
-Print "enter sixth number"
+PROMPT "enter sixth number"
 
 INPUT Num6
 
-Print "enter 7th number"
+PROMPT "enter 7th number"
 
 INPUT Num7
 
-Print "enter 8th number"
+PROMPT "enter 8th number"
 
 INPUT Num8
 
-Print "enter 9th number"
+PROMPT "enter 9th number"
 
 INPUT Num9
 
-Print "enter 10th number"
+PROMPT "enter 10th number"
 
 INPUT Num10
 
